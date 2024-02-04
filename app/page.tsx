@@ -1,4 +1,4 @@
-import Map from './_components/_map/Map';
+import Map from './_components/map';
 import styles from './page.module.scss';
 
 export default function Home() {
