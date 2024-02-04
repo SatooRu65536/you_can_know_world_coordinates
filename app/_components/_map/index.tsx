@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
-import { Suspense } from "react";
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
 
 export default function DynamicMap() {
-  const DynamicMap = dynamic(() => import("@/components/map/Map"), {
+  const DynamicMap = dynamic(() => import('./Map'), {
     ssr: false,
   });
 
